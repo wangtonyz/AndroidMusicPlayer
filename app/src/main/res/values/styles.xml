@@ -1,0 +1,56 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="dialogTheme" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 该属性去掉dialog 背景  如果设置圆角 就会去掉圆角阴影 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="enter">
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="@android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+    <style name="fade">
+        <item name="@android:windowEnterAnimation">@anim/fade</item>
+        <item name="@android:windowExitAnimation">@anim/hold</item>
+    </style>
+
+    <style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="Theme_red">
+        <item name="theme_color">@color/red</item>
+        <item name="popupwindow_bg">@drawable/popupwindow_bg_red</item>
+        <item name="dialogactivity_bg">@drawable/dialogactivity_bg_red</item>
+        <item name="btn_submit_bg">@drawable/btn_submit_bg_red</item>
+        <item name="seekbar_progress_bg">@drawable/seekbar_progress_bg_red</item>
+        <item name="play_image">@mipmap/play_red</item>
+        <item name="next_image">@mipmap/next_red</item>
+        <item name="front_image">@mipmap/front_red</item>
+        <item name="thumb_image">@mipmap/seekbar_thumb_red</item>
+        <item name="indicate_image">@mipmap/play_small_red</item>
+    </style>
+
+</resources>

@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/item_mymusic_postion"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/item_mymusic_singer"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:text="1"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/item_mymusic_song"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="歌曲名"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/item_mymusic_singer"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/item_mymusic_duration"
+            android:gravity="bottom"
+            android:text="歌手"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_marginBottom="5dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/item_mymusic_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:gravity="bottom"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="歌曲时间"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

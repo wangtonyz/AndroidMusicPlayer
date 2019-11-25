@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="theme_color" format="color" />
+    <attr name="popupwindow_bg" format="reference"/>
+    <attr name="dialogactivity_bg" format="reference"/>
+    <attr name="btn_submit_bg" format="reference"/>
+    <attr name="seekbar_progress_bg" format="reference"/>
+    <attr name="play_image" format="reference" />
+    <attr name="next_image" format="reference" />
+    <attr name="front_image" format="reference" />
+    <attr name="thumb_image" format="reference" />
+    <attr name="indicate_image" format="reference" />
+</resources>
